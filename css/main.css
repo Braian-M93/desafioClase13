@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2? family= Open+Sans:ital@1 & display=swap");
+.botonera {
+  background-color: rgba(238, 188, 255, 0.5);
+  padding: 5px 30px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .botonera ul {
+    display: flex; }
+    .botonera ul li {
+      list-style: none; }
+      .botonera ul li a {
+        color: grey;
+        font-size: 2em;
+        text-decoration: none; }
+        .botonera ul li a:hover {
+          color: yellow; }
