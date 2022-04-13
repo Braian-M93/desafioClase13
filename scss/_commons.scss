@@ -6,4 +6,88 @@ $keyColor:deeppink;
 
 $w-100:100%;
 $w-50:50%;
-$w-25:25%
+
+.botonera{
+background-color:$mainColor;
+ padding: 5px 30px;
+ position: sticky;
+ top: 0;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ ul{
+ 	display: flex;
+ 	li{
+ 		list-style: none;
+ 		a{
+ 			color: grey;
+ 			font-size: 1.5em;
+ 			text-decoration: none;
+ 			&:hover{
+ 				color: yellow;
+
+ 			}
+ 		}
+ 	}
+ }
+}
+
+
+body{
+	background-attachment: scroll;
+		background-image: url("../imagen/bg/bg-gral.jpg");
+		background-size: cover;
+		padding: 10px;
+	}
+
+header{
+	nav{
+		a{
+			img{
+				width: 50%;
+				border-radius: 60%;
+			}
+		}
+	}
+}
+
+main{
+	div{
+		section{
+			div{
+				a{
+					img{
+						width: 25%;
+					}
+				}
+			}
+		}
+	}
+}
+
+footer{
+	a{
+		img{
+			width: 15%;
+		}
+	}
+}
+
+li {
+  flex-direction: row;
+ list-style: none;
+      display: flex;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.row{
+  display: flex;
+  padding: 10px;
+flex-wrap: wrap;
+ }
+ .column{
+  flex: 25%;
+  margin-top: 10px;
+ }

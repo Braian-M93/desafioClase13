@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "author": "braian",
@@ -296,5 +296,13 @@
     "yallist": "^4.0.0",
     "yargs": "^17.4.0",
     "yargs-parser": "^20.2.9"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Braian-M93/desafioclase13.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Braian-M93/desafioclase13/issues"
+  },
+  "homepage": "https://github.com/Braian-M93/desafioclase13#readme"
 }
